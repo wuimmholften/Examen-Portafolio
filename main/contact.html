@@ -43,17 +43,18 @@
     
 <div class="formulario">
         <h1 class="h1">Contact me</h1>
-    	<form id="form" class="topBefore" action="https://submit-form.com/bjoeumnKzRdOHGVjfk24c" target="_self">
+        <div id="error"></div>
+    	<form id="form" class="topBefore" action="https://submit-form.com/bjoeumnKzRdOHGVjfk24c" target="_self" method="GET"> 
         
-        <input type="text" name="subject" placeholder="Subject">
+        <input id="subject" type="text" name="subject" placeholder="Subject" required>
         <br>
-        <input type="text" name="email" placeholder="Email">
+        <input id="email" type="text" name="email" placeholder="Email" required>
         <br>
-        <textarea name="message" placeholder="Message"></textarea>
+        <textarea id="message" name="message" placeholder="Message" required></textarea>
         <br>
-        <button id="submit" type="submit">GO!</button>
+        <button id="submit" type="submit">SEND</button>
         
-     </form>
+         </form>
 </div>
 
 <footer class="footer-distributed">

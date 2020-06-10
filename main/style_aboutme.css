@@ -683,3 +683,30 @@ body {
     line-height: 1.8;
   }
 }
+.inf{
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+
+.profilephoto img{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  display: flexbox;
+} 
+
+.element_p{
+  padding: 20px;
+  text-align: left;
+  
+ 
+} 
+@media only screen and (max-width: 320px) {
+
+  .element_p { 
+     font-size: 2em; 
+  }
+
+}

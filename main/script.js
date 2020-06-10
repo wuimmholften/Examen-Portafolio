@@ -1,5 +1,3 @@
-/* Please ❤ this if you like it! */
-
 
 (function($) { "use strict";
 		
@@ -111,10 +109,3 @@ items.forEach(item => item.addEventListener('click', handleClick));
 
 overlayClose.addEventListener('click', close);
 
-$( '.js-input' ).keyup(function() {
-	if( $(this).val() ) {
-	   $(this).addClass('not-empty');
-	} else {
-	   $(this).removeClass('not-empty');
-	}
-  });
